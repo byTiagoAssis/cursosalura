@@ -1,0 +1,18 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+	var anoAtual = 2016;
+	var geracao = 28;
+	var chegada = 1500;
+
+function pulaLinha() {
+	document.write("<br>")
+}
+
+function mostra(frase) {
+	document.write(frase);
+	pulaLinha();
+}
+
+mostra("O numero de gerações é " + (Math.round((anoAtual-chegada)/ geracao)));
+
+</script>
